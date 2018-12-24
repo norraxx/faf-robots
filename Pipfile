@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+scfa-parser = {git = "https://github.com/FAForever/faf-scfa-replay-parser.git", editable = true}
+mysqlclient = "1.3.14"
+
+[requires]
+python_version = "3.6"
